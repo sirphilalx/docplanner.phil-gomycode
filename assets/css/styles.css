@@ -1,0 +1,24 @@
+:root {
+  --primary-bg-clr: #ffffff;
+  --primary-accent-clr: #02c3a5;
+  --secondary-accent-clr: #ababab;
+  --font-clr: #747474;
+  --btn-clr: #3d82de;
+  --inactive-clr: #ababab;
+  --header-1-fnt-size: 33px;
+  --header-2-fnt-size: 30px;
+  --header-fnt-wt: 300;
+  --card-header-fnt-size: 34px;
+  --card-header-fnt-wt: 400;
+  --primary-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --secondary-font-family: "Work Sans", Arial, sans-serif;
+}
+
+.wrapper {
+  max-width: 60vw;
+  margin: 0 auto;
+}
+
+.active {
+  color: var(--primary-accent-clr);
+}

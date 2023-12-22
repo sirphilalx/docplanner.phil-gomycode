@@ -1,0 +1,27 @@
+section.leadsection {
+  margin-top: 80px;
+  font-family: var(--primary-font-family);
+}
+
+section.leadsection > .wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+section.leadsection > .wrapper > .logo > img {
+  height: 40px;
+  width: 40px;
+}
+section.leadsection > .wrapper > p {
+  font-size: var(--header-1-fnt-size);
+  font-weight: var(--header-fnt-wt);
+  color: var(--primary-accent-clr);
+}
+
+section.leadsection > .wrapper > .twoparagraphs {
+  display: flex;
+  gap: 20px;
+  text-align: left;
+  padding: 30px auto;
+  color: var(--font-clr);
+}
