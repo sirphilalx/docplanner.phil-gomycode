@@ -1,6 +1,7 @@
 section.leadsection {
   margin-top: 80px;
   font-family: var(--primary-font-family);
+  padding: 30px;
 }
 
 section.leadsection > .wrapper {
@@ -16,6 +17,11 @@ section.leadsection > .wrapper > p {
   font-size: var(--header-1-fnt-size);
   font-weight: var(--header-fnt-wt);
   color: var(--primary-accent-clr);
+}
+section.leadsection > .wrapper > .twoparagraphs > .p1 > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
 }
 
 section.leadsection > .wrapper > .twoparagraphs {

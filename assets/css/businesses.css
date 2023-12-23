@@ -1,0 +1,19 @@
+.businesses > .wrapper-inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 500px;
+  font-family: var(--secondary-font-family);
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 33px;
+  color: var(--primary-accent-clr);
+}
+.businesses > .wrapper-inner > .section-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.businesses > .wrapper-inner > .section-logos > * {
+  width: 75px;
+  height: 11.85px;
+}

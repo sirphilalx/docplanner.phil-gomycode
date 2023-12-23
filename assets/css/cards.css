@@ -1,0 +1,68 @@
+.cards .wrapper-inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 37.5px auto 25px auto;
+  font-family: var(--secondary-font-family);
+}
+.cards .wrapper-inner > .card > .up > h2 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 21px;
+}
+.cards .wrapper-inner > .card > .up > p {
+  font-weight: 200;
+  font-size: 18px;
+  font-style: normal;
+  /* line-height: 25px; */
+}
+
+.cards .wrapper-inner > .card {
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: none;
+  padding: 20px;
+  border-radius: 6px;
+  color: white;
+}
+
+.cards .wrapper-inner > .card > .down > a {
+  color: var(--primary-bg-clr);
+  font-weight: 100;
+}
+.cards .wrapper-inner > .card.green {
+  background-color: var(--primary-accent-clr);
+}
+.cards .wrapper-inner > .card.blue {
+  background-color: #3d82de;
+}
+.cards .wrapper-inner > .card.blackish {
+  background-color: #1a2734;
+}
+
+.cards .wrapper-inner > .card > .down {
+  display: flex;
+}
+.cards .wrapper-inner > .card > .down.ward {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cards .wrapper-inner > .card > .down.ward > .one,
+.cards .wrapper-inner > .card > .down.ward > .two {
+  display: flex;
+  color: var(--primary-bg-clr);
+}
+.cards .wrapper-inner > .card > .down.ward > .one > a,
+.cards .wrapper-inner > .card > .down.ward > .two > a {
+  color: var(--primary-bg-clr);
+  font-weight: 100;
+}
+.cards .wrapper-inner > .card > .down > * {
+  color: white;
+}
