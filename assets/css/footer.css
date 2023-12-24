@@ -1,0 +1,13 @@
+footer .wrapper {
+  text-align: center;
+}
+footer .wrapper p {
+  font-family: "roboto";
+  font-size: 12px;
+  line-height: 17px;
+  color: var(--secondary-accent-clr);
+}
+footer .wrapper p a {
+  text-decoration: none;
+  color: #23427c;
+}
