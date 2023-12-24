@@ -1,7 +1,7 @@
 .businesses > .wrapper-inner {
   display: flex;
+  gap: 100px;
   justify-content: space-between;
-  gap: 500px;
   font-family: var(--secondary-font-family);
   font-weight: 300;
   font-size: 23px;
@@ -10,6 +10,7 @@
 }
 .businesses > .wrapper-inner > .section-logos {
   display: flex;
+  width: 400px;
   flex-wrap: wrap;
   justify-content: space-between;
 }

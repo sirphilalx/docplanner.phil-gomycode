@@ -1,0 +1,78 @@
+section.stat {
+  background-color: #cffaf4;
+}
+
+section.stat > .wrapper-inner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  position: relative;
+}
+
+section.stat > .wrapper-inner > .sectioheader > img {
+  position: absolute;
+  bottom: 0;
+}
+section.stat > .wrapper-inner > .sectioheader {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 450px;
+  padding-bottom: 60px;
+}
+section.stat > .wrapper-inner > .sectioheader > h2 {
+  color: var(--primary-accent-clr);
+  font-family: var(--secondary-font-family);
+  font-weight: 100;
+}
+section.stat > .wrapper-inner > .sectioheader > p {
+  font-family: var(--secondary-font-family);
+  font-weight: 100;
+  color: var(--secondary-accent-clr);
+  font-size: 15px;
+}
+
+section.stat > .wrapper-inner > .statistics {
+  display: flex;
+  gap: 40px;
+  font-family: var(--secondary-font-family);
+  padding-bottom: 60px;
+}
+section.stat > .wrapper-inner > .statistics > .first > .card,
+section.stat > .wrapper-inner > .statistics > .second > .card {
+  width: 220px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: auto;
+  background-color: #fff;
+}
+
+section.stat > .wrapper-inner > .statistics > .first {
+  padding-top: 30px;
+}
+
+section.stat > .wrapper-inner > .statistics > .first > .card > h3,
+section.stat > .wrapper-inner > .sectionheader > h2,
+section.stat > .wrapper-inner > .statistics > .second > .card > h3 {
+  color: var(--primary-accent-clr);
+  font-family: var(--secondary-font-family);
+  font-size: 26px;
+  font-weight: 100;
+}
+section.stat > .wrapper-inner > .statistics > .first > .card > p,
+section.stat > .wrapper-inner > .statistics > .second > .card > p {
+  color: var(--secondary-accent-clr);
+  font-family: var(--primary-font-family);
+  font-size: 11px;
+  font-weight: 400;
+}
+section.stat > .wrapper-inner > .statistics > .first,
+section.stat > .wrapper-inner > .statistics > .second {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

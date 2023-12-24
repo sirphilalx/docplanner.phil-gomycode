@@ -13,13 +13,22 @@
   --primary-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   --secondary-font-family: "Work Sans", Arial, sans-serif;
 }
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  border-radius: 4px;
+}
 
 .wrapper {
-  max-width: 60vw;
+  max-width: 70vw;
   margin: 0 auto;
 }
 .wrapper-inner {
-  max-width: 50vw;
+  max-width: 60vw;
   margin: 0 auto;
 }
 

@@ -1,0 +1,25 @@
+.more_info {
+  padding: 70px;
+}
+.more_info .wrapper-inner {
+  text-align: center;
+}
+.more_info .wrapper-inner {
+  width: 446.15px;
+}
+.more_info .wrapper-inner > h2 {
+  margin: 20px 0 10px 0;
+  font-family: var(--secondary-font-family);
+  font-weight: 300;
+  line-height: 33px;
+  font-size: 30px;
+  color: var(--primary-accent-clr);
+}
+.more_info .wrapper-inner > p {
+  margin: 22.4px 0;
+  font-family: var(--primary-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--secondary-accent-clr);
+}
