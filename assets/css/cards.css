@@ -1,3 +1,7 @@
+/* .cards {
+  background-color: red;
+} */
+
 .cards .wrapper-inner {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
