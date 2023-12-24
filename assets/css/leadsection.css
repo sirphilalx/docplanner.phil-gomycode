@@ -2,6 +2,7 @@ section.leadsection {
   margin-top: 80px;
   font-family: var(--primary-font-family);
   padding: 30px;
+  /* background-color: red; */
 }
 
 section.leadsection > .wrapper {
